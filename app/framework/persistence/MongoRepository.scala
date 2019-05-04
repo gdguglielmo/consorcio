@@ -1,4 +1,4 @@
-package persistence
+package framework.persistence
 
 import org.mongodb.scala.bson.conversions.Bson
 import org.mongodb.scala.{Completed, MongoCollection}

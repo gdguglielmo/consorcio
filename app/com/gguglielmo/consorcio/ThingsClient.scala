@@ -1,8 +1,9 @@
-package http
+package com.gguglielmo.consorcio
 
-import http.netty.NettyHttpClient
+import com.gguglielmo.consorcio.model.Thing2
+import framework.http.netty.NettyHttpClient
+import framework.http.{HttpMethods, HttpRequest, HttpResponse}
 import javax.inject.Inject
-import model.{Thing, Thing2}
 import org.asynchttpclient.AsyncHttpClient
 
 import scala.concurrent.{ExecutionContext, Future}

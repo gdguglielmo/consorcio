@@ -1,10 +1,10 @@
-package model
+package com.gguglielmo.consorcio.model
 
 import play.api.libs.json.JsonNaming.SnakeCase
 import play.api.libs.json.{Json, JsonConfiguration, Reads, Writes}
 
 case class Thing(name: String, age: Int, isCool: Boolean, nickName: Option[String])
-case class Thing2(name: String, age: Int, isCool: Boolean, nickName: String, asd: Int)
+case class Thing2(name: String, age: Int, isCool: Boolean)
 
 object Thing {
   implicit val config = JsonConfiguration(SnakeCase)

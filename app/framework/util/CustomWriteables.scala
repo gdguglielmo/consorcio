@@ -1,4 +1,4 @@
-package util
+package framework.util
 
 import play.api.http.{ContentTypeOf, ContentTypes, Writeable}
 import play.api.libs.json.Writes

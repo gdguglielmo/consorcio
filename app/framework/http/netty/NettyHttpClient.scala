@@ -1,6 +1,6 @@
-package http.netty
+package framework.http.netty
 
-import http.{HttpClient, HttpRequest, HttpResponse}
+import framework.http.{HttpClient, HttpRequest, HttpResponse}
 import org.asynchttpclient.{AsyncHttpClient, DefaultAsyncHttpClient, DefaultAsyncHttpClientConfig}
 import play.api.Configuration
 import play.api.libs.json.Reads

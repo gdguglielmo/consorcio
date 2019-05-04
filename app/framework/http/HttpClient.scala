@@ -1,4 +1,4 @@
-package http
+package framework.http
 
 import play.api.libs.json.{JsSuccess, Reads}
 

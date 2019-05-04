@@ -1,5 +1,6 @@
-package object http {
+package framework
 
+package object http {
   type Headers = List[Header]
 
   type Cookies = List[Cookie]
@@ -7,5 +8,4 @@ package object http {
   type Form = Map[String, String]
 
   type Body = String
-
 }

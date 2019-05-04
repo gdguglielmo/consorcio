@@ -1,4 +1,4 @@
-package http.netty
+package framework.http.netty
 
 import javax.inject.Inject
 import org.asynchttpclient.AsyncHttpClient

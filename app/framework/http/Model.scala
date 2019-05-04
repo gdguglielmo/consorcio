@@ -1,4 +1,4 @@
-package http
+package framework.http
 
 case class Header(name: String, value: String) {
   def toTuple: (String, String) = name -> value

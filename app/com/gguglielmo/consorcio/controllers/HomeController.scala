@@ -1,10 +1,10 @@
-package controllers
+package com.gguglielmo.consorcio.controllers
 
 import javax.inject._
-import model.Thing
 import play.api.mvc._
-import service.ThingsService
-import util.{CustomWriteables, RequestHandlingExecutionContext}
+import com.gguglielmo.consorcio.model.Thing
+import com.gguglielmo.consorcio.service.ThingsService
+import framework.util.{CustomWriteables, RequestHandlingExecutionContext}
 
 @Singleton
 class HomeController @Inject()(cc: ControllerComponents,

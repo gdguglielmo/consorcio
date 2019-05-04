@@ -1,4 +1,4 @@
-package http
+package framework.http
 
 trait HttpResponse[+A] {
   def status: Int

@@ -1,7 +1,8 @@
-package persistence
+package com.gguglielmo.consorcio
 
+import com.gguglielmo.consorcio.model.Thing
+import framework.persistence.{MongoClientProvider, MongoRepository}
 import javax.inject.Inject
-import model.Thing
 import org.mongodb.scala.model.Filters
 import play.api.Configuration
 

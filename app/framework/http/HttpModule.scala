@@ -1,7 +1,7 @@
-package http
+package framework.http
 
 import com.google.inject.AbstractModule
-import http.netty.NettyHttpClient
+import framework.http.netty.NettyHttpClient
 import org.asynchttpclient.AsyncHttpClient
 import play.api.{Configuration, Environment}
 

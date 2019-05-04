@@ -1,9 +1,9 @@
-package service
+package com.gguglielmo.consorcio.service
 
-import http.{Ok, ThingClientException, ThingsClient}
+import com.gguglielmo.consorcio.{ThingClientException, ThingsClient, ThingsRepository}
+import framework.http.Ok
 import javax.inject.Inject
-import model.{Thing, Thing2}
-import persistence.ThingsRepository
+import com.gguglielmo.consorcio.model.{Thing, Thing2}
 
 import scala.concurrent.{ExecutionContext, Future}
 

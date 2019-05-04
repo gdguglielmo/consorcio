@@ -1,8 +1,8 @@
-package http.netty
+package framework.http.netty
 
 import java.nio.charset.{Charset, StandardCharsets}
 
-import http.{Forbidden, HttpResponse, HttpStatus, NotFound, Ok, Unauthorized, UnhandledHttpStatus}
+import framework.http.{Forbidden, HttpResponse, HttpStatus, NotFound, Ok, Unauthorized, UnhandledHttpStatus}
 import org.asynchttpclient.util.HttpUtils
 import org.asynchttpclient.{AsyncCompletionHandler, Response => AHCResponse}
 import play.api.libs.json.{JsError, JsSuccess, Json, Reads}

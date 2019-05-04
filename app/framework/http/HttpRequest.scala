@@ -1,4 +1,4 @@
-package http
+package framework.http
 
 import akka.http.scaladsl.model.Uri
 

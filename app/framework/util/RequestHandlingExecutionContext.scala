@@ -1,4 +1,4 @@
-package util
+package framework.util
 
 import akka.actor.ActorSystem
 import javax.inject.Inject

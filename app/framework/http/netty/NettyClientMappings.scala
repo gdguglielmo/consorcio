@@ -1,6 +1,6 @@
-package http.netty
+package framework.http.netty
 
-import http.{Cookie, Header, HttpRequest}
+import framework.http.{Cookie, Header, HttpRequest}
 import io.netty.handler.codec.http.{HttpHeaders => AHCHeaders}
 import io.netty.handler.codec.http.cookie.{Cookie => AHCCookie, DefaultCookie => DefaultAHCCookie}
 import org.asynchttpclient.{RequestBuilder, Request => AHCRequest}
